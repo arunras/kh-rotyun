@@ -1,0 +1,276 @@
+@charset "utf-8";
+/**************************************************/
+/* Created by : RITH PHEARUN
+/* Date       : 2011-12-24
+/* EMail      : run@camitss.com
+/* Company    : http://camitss.com
+/**************************************************/
+@import url(http://fonts.googleapis.com/css?family=Moulpali);
+html{
+	font-family: Tahoma, Geneva, sans-serif, 'Moulpali', cursive;
+}
+body {
+	padding: 0px;
+	margin: 0;
+	width: 100%
+	font-family: Tahoma, Geneva, sans-serif, 'Moulpali', cursive;
+}
+img{
+	border: 0px #FFF solid;
+}
+.clear{
+	clear: both;
+}
+#center_wrapper{ 
+	font-family: Tahoma, Geneva, sans-serif, 'Moulpali', cursive;
+    position: relative;
+	padding: 0px 10px 20px 10px;
+	
+	border: 0px #F00 solid;
+}
+#phsaEZ_wrapper{
+	font-family: Tahoma, Geneva, sans-serif, 'Moulpali', cursive;
+    border: 0px #00F solid;
+	min-height: 870px;
+}
+#container{
+	font-family: Tahoma, Geneva, sans-serif, 'Moulpali', cursive;
+	overflow: hidden;
+	border: 0px #F00 solid;
+}
+#head{
+    border: 0px #00F solid;
+    padding-bottom: 2px;
+}
+#mar{
+	width: 630px;
+	padding-top: 25px;
+	marquee-speed: slow;
+	color: #EE3542;
+}
+.webkit #mar {
+padding-top: 5px;
+marquee-speed: slow;
+}
+
+.header{    
+font-family: Tahoma, Geneva, sans-serif, 'Moulpali', cursive;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 10px 0px 10px;
+	border: 0px #F00 solid;
+	/*background-image: url(../../../store/image/icon/banner_bg.jpg);*/
+	width: 98%;
+}
+.header .banner{
+	border: 0px #F00 solid; 
+	/*width: 1000px; */
+	max-width: 1000px;
+	height: 50px; 
+	margin: 0 auto; 
+	background-repeat: no-repeat;	
+	border: 0px #F00 solid;
+}
+.header .banner .logo{
+	float: left;
+	width: 370px; 
+	height: 50px; 
+	background-image: url(../images/layout/logo.png);
+	background-repeat: no-repeat;	
+	border: 0px #F00 solid;
+}
+.header .banner .log{
+	float: right;
+	height: 20px;
+	padding: 2px 2px 0px; 5px;
+	border: 0px #F00 solid;
+}
+.header .banner .log ul{
+	margin: 0px;
+	padding: 0px;
+}
+.header .banner .log ul li{
+	float: right;
+	padding: 0px 5px 0px 8px;
+	margin: 0px 0px 0px 5px;
+	border-left: 1px #CCC solid;
+}
+.header .banner .log ul li a{
+	text-decoration: none;
+	font-weight: normal;
+	color:#006EC3;	
+	border: 0px #F00 solid;
+}
+.header .banner .log ul li a:hover{
+	color: #2896EB;
+	text-decoration: underline;
+}
+.header .banner .log ul li #user-info img{
+	width: 20px;
+	height: 20px;
+	margin-right: 3px;
+}
+.header .banner .log .lang{
+	border: 0px #F00 solid;
+	margin-top: 10px;
+}
+
+.menu_bar{	
+	font-family: Tahoma, Geneva, sans-serif, 'Moulpali', cursive;
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+	background-color: #616A91;/*#1E8CE1;#2896E6;Baseed*/
+	/*background-color: #1569C7;*/
+	-webkit-box-shadow:0px 2px 1px #bbb;
+	-moz-box-shadow:0px 2px 1px #bbb;
+	box-shadow: 0px 2px 1px #bbb;
+	border: 0px #F00 solid;
+}
+.menu_bar .searchBlock{
+	max-width: 1000px;
+	margin: 0 auto; 
+	border: 0px #00F solid;
+}
+.menu_bar .searchBlock .txt_search{
+	font-family: Tahoma, Geneva, sans-serif, 'Moulpali', cursive;
+	width: 55%;/*550px;*/
+	height: 20px;
+	padding: 3px 3px 3px 3px;
+	margin-left: 3px;
+	border: 2px #0CF solid;
+}
+.menu_bar .searchBlock .select_filter{
+font-family: Tahoma, Geneva, sans-serif, 'Moulpali', cursive;
+	width: 20%;/*200px;*/
+	height: 30px;
+	padding: 3px 3px 3px 3px;
+	border: 2px #0CF solid;
+}
+.menu_bar .searchBlock .btn_search{
+	font-family: Tahoma, Geneva, sans-serif, 'Moulpali', cursive;
+	width: 10%;/*80px;*/
+	height: 30px;
+	color: #FFF;
+	font-weight: bold;
+	background-color: #7E86A1;/*#09F;*/
+	padding: 3px 3px 3px 3px;
+	border: 2px #09F solid;
+}
+.menu_bar .searchBlock .btn_search:hover{
+	cursor: pointer;
+	background-color: #B0B8D3;/*#3CAAFA;*/
+	border: 2px #3CAAFA solid;
+}
+.btn{
+	font-family: Tahoma, Geneva, sans-serif, 'Moulpali', cursive;
+	width: 80px;
+	height: 30px;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #2896E6;
+	padding: 3px 3px 3px 3px;
+	border: 2px #09F solid;
+}
+.btn:hover{
+	cursor: pointer;
+	background-color: #3CAAFA;
+	border: 2px #3CAAFA solid;
+}
+#footer{
+	/*position: absolute;*/
+	display: block;
+	width: 100%;
+	height: 20px;
+	background-color: #1E8CE1;/*#2896E6;*/
+	color: #006EBE;
+	text-align: center;
+	
+	-webkit-box-shadow:0px -2px 10px #bbb;
+	-moz-box-shadow:0px -2px 10px #bbb;
+	box-shadow: 0px -2px 10px #bbb;
+}
+#footer a{
+	color:#006EBE;
+	text-decoration: none;
+}
+#footer a:hover{
+	color: #FFF;
+}
+
+/*=Other=====================================================*/
+/*=Other=====================================================*/
+/*==Form Login===============*/
+.LOGIN{
+font-family: Tahoma, Geneva, sans-serif, 'Khmer', cursive;
+	 background-color: #FAFAFA;
+	 padding: 20px 10px 20px 10px;
+}
+.LOGIN label{
+	color: #333;
+}
+.LOGIN .textbox{
+	width: 200px;
+	padding: 1px 1px 1px 1px;
+}
+.LOGIN .btn_login{
+	width: 85px;
+	height: 25px;
+	background-image:url(../../../images/layout/btn_login.png);
+}
+.LOGIN .btn_login:hover{
+	background-image:url(../../../images/layout/btn_loginhover.png);
+	cursor: pointer;
+}
+.LOGIN .moreinfo{
+	background-color: #F7F7F7;
+	color: #999;
+	width: 300px;
+	font-size: 10px;
+	padding: 5px 5px 5px 5px;
+	//margin: 30px 0px 10px 200px;
+	margin: 0 auto;
+	margin-top: 30px;
+	border: 1px #F7F7F7 solid;
+}
+.LOGIN .moreinfo a{
+	color: #2896E6;
+	text-decoration: none;
+}
+.LOGIN .moreinfo a:hover{
+	color: #2896EB;
+	text-decoration: underline;
+}
+/*==EndForm Login===============*/
+#detail_menubar{
+    /*background-color: #3CAAFA;*/
+    height: 25px;
+    margin: 0px 0px 2px 0px;
+	margin-top: 0 auto;
+	margin-buttom: 0 auto;
+}
+#detail_menubar .detail_bar_nav{
+	max-width: 1000px;
+	text-align: left;
+	margin: 0 auto;
+	padding: 3px;
+	background-color: #616A91;/*#2896E6;#3CAAFA;*/
+	border: 0px #F00 solid;
+}
+#detail_menubar .detail_bar_nav ul{
+	height: 20px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+}
+#detail_menubar .detail_bar_nav ul li{
+	display: inline;
+	padding: 0px 0px 0px 5px;
+	margin: 0px 5px 0px 0px;
+}
+#detail_menubar .detail_bar_nav ul a{
+	color: #FFF;
+	text-decoration: none;
+}
+#detail_menubar .detail_bar_nav ul a:hover{
+	color: #F00;
+}

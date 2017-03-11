@@ -1,0 +1,142 @@
+@charset "utf-8";
+/**************************************************/
+/* Created by : RITH PHEARUN
+/* Date       : 2012-01-24
+/* EMail      : run@camitss.com
+/* Company    : http://camitss.com
+/**************************************************/
+
+a.shop_label{
+	text-decoration: none; 
+	color: #2554C7;
+	border: none;
+}
+a.shop_label:hover{
+	color:#006EC3;
+}
+.store_txtsearch{
+	border: 2px #1F73D1 solid;
+	width: 170px;
+	height: 20px;
+	padding: 1px 1px 1px 2px;
+}
+.store_btnsearch{
+	width: 22px;
+	height: 20px;
+	padding: 0px 2px 2px 5px;
+	cursor: pointer;
+	border: 1px #1F73D1 solid;
+	background-image: url(../../../images/layout/btn_search.gif);
+	background-repeat: no-repeat;
+	background-position: 1px -1px;
+}
+.store_btnsearch:hover{
+	border: 1px #F00 solid;
+}
+.store_listproduct{
+	border-left: 1px #CCC dashed;	
+}
+.store_listproduct .label{
+    height: 25px;
+	color: #333;
+    font-size: 14px;
+	font-weight: bold;
+    padding: 5px 2px 1px 2px;
+    background-color: #E0E0E0;
+}
+.store_listproduct .label a{
+	color: #25587E;
+    font-size: 14px;
+}
+.store_listproduct .label a:hover{
+	color: #578AB0;
+}
+.store_listproduct .item{
+	width: 152px;
+	text-align: center;
+	padding: 1px 1px 1px 1px;
+}
+.store_listproduct .item .frame{
+	position: relative;
+	width: 150px;
+}
+.store_listproduct .item .frame .car_picture{
+	width: 150px;
+}
+.store_listproduct .item .frame .alert_new{
+	position: absolute;
+	z-index: 200;
+	bottom: 5px;
+	right: 0px;
+	height: 67px;
+	
+	border: 0px #F00 solid;
+}
+/*
+.store_listproduct .item .car_picture{
+	width: 150px;
+	border: 1px #F00 solid;
+}
+.store_listproduct .item .alert_new{
+	position: absolute;
+	z-index: 200;
+	border: 1px #000 solid;
+}
+
+.store_listproduct .item img.car_picture:hover{
+	opacity: 0.8;
+	-khtml-opacity: 0.8;
+	-moz-opcaity: 0.8;
+	-ms-filter:"alpha(opacity=80)";
+	filter:alpha(opacity=80);
+}
+*/
+.store_listproduct .item .name{
+	width: 150px;
+}
+.store_listproduct .item .name a{
+	text-decoration: none;
+	color:#006EC3; 
+	border: none;
+}
+.store_listproduct .item .name a:hover{
+	color: #2896EB;
+	text-decoration: underline;
+}
+.store_listproduct .item .price{
+	display: block;
+   	color: #C00;
+   	font-size: 14px;
+   	padding: 1px 0px 2px 0px;
+}
+
+.contact_info{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	padding: 0px 5px 5px 10px;
+	background: #F7F7F7;
+}
+.contact_info .label{
+	font-family: Tahoma,Geneva,sans-serif,'Moulpali',cursive;
+	color: #666;
+	width: 90px;
+	text-align: left;
+	vertical-align: top;
+	border: 0px #f00 solid;
+	padding-top: 2px;
+}
+.contact_info .info{
+	color: #333;
+	font-size: 14px;
+	border: 0px #F00 solid;
+}
+.contact_info a{
+	text-decoration: none;
+	font-size: 16px;
+	color:#006EC3; 
+	border: none;
+}
+.contact_info a:hover{
+	color: #2896EB;
+	text-decoration: underline;
+}

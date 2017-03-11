@@ -1,0 +1,1 @@
+[31-Jul-2012 00:28:58] PHP Fatal error:  Call to undefined function  getstoreowneruser() in /home/jcit/public_html/CAMBODIA-AUTO.COM/application/map/js/map_view.php on line 32

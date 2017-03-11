@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+.CAR_REGISTRATION{
+	font-family: Tahoma, Geneva, sans-serif, 'Moulpali', cursive;
+	background-color: #FAFAFA;
+	padding: 20px 10px 20px 10px;
+	border: 0px #F00 solid;
+}
+
+.CAR_REGISTRATION a{
+	text-decoration: none;
+	color:#006EC3;
+	border: none;
+}
+.CAR_REGISTRATION a:hover{
+	color: #2896EB;
+}
+.CAR_REGISTRATION .textbox{
+	width: 200px;
+}
+.CAR_REGISTRATION .selection{
+	width: 200px;
+}
+.CAR_REGISTRATION .label{
+	border: 0px #F00 solid;
+	padding: 0px 5px 0px 0px;
+	width: 100px;
+}
+.CAR_REGISTRATION .activeBlock{
+	font-size: 18px;
+	font-weight: bold;
+	color: #039;
+	width: 195px;
+	margin: 50px 0px 0px 1px;
+	border: 2px #69F solid;
+}
+.CAR_REGISTRATION .statusBlock{
+	margin: 30px 0px 0px 0px;
+	padding: 0px 5px 0px 0px;
+	width: 200px;
+	border: 0px #F00 solid;
+}
+.CAR_REGISTRATION .statusBlock fieldset{
+	font-size: 14px;
+	border: 2px #69F solid;
+}
+.CAR_REGISTRATION .statusBlock legend{
+	font-size: 18px;
+	font-weight: bold;
+	color: #039;
+}
+.CAR_REGISTRATION .statusBlock .statusText{
+	font-size: 14px;
+	color: #069;
+}
+
+
+/*Car Detail======================================================================================*/
+.CAR_DESC{
+	border: 0px #CCC solid;
+	padding: 0px;
+}
+.CAR_DESC .desc_label{
+	vertical-align: top;
+	padding: 0px 0px 0px 5px;
+	background-color: #E8E8E8;
+	width: 120px;
+	border:0px solid #f00;
+}
+.CAR_DESC .desc_value{
+	color: #245556;
+	font-size: 16px;
+	width: 200px;
+	background-color: #F2F2F2;
+	padding: 0px 0px 0px 5px;
+}
+.CAR_DESC .car_photo{
+	width: 50%;
+	border: 0px #F00 solid;
+}
+.CAR_DESC .car_photo img{
+	width: 100%;
+	border: 1px #CCC solid;
+}
+.CAR_DESC .car_photo img:hover{
+	width: 100%;
+	border: 1px #FFF solid;
+}
+/*================== kongkea ======*/
+.main_desc{
+	color: #245556;
+	font-size: 14px;
+	width: 200px;
+	background-color: #F2F2F2;
+	line-height: 10px;
+}
+
+/*END Car Detail==================================================================================*/

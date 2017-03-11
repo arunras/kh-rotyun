@@ -1,0 +1,254 @@
+@charset "utf-8";
+/**************************************************/
+/* Created by : RITH PHEARUN
+/* Date       : 2011-01-25
+/* EMail      : run@camitss.com
+/* Company    : http://camitss.com
+/* For		  : MomoryBox
+/**************************************************/
+/**, html { margin:0; padding:0 }*/
+
+/*==Map NewCard====================================================================*/
+div#iMAP{
+	/*width: 1000px;*/
+	/*width: 100%;*/
+	/*height: 600px;*/
+	padding: 1px 1px 1px 1px;
+	border: 1px #CCC solid;
+    margin: 10px 0;
+}
+div#map_canvas{ 
+	width:100%; 
+	height: 120px;
+	font-size: 12px;
+	color: #CCC;
+}
+#infoPanel{
+    margin-top: 10px;
+}
+/*==end Map NewCard====================================================================*/
+/*==My Map====================================================================*/
+div#myMAP{
+	width: 100%;
+	height: 120px;
+	padding: 1px 1px 1px 1px;
+	border: 0px #CCC solid;
+}
+#map-container {
+	border: 1px #CCC solid;
+	-webkit-box-shadow: rgba(64, 64, 64, 0.5) 0 2px 5px;
+	-moz-box-shadow: rgba(64, 64, 64, 0.5) 0 2px 5px;
+	box-shadow: rgba(64, 64, 64, 0.1) 0 2px 5px;
+	width: 100%;
+	height: 100%;
+}
+
+div#MAP_VIEW_WRAPPER{
+	width: 100%;
+	height: 600px;
+	padding: 1px 1px 1px 1px;
+	border: 2px #CCC solid;
+}
+#map_view {
+	width: 100%;
+	height: 100%;
+}
+.map_infoBox{
+	display: block;  
+	margin: 4px 0px 2px 0px;
+	border: 0px #f00 solid;
+}
+.info_address{
+	padding: 2px 2px 2px 0px;
+	margin: 4px 0px 2px 0px;
+	border: 0px #00F solid;
+}
+.info_address .direction{
+	float: right;
+}
+.info_address .direction a{
+	color: #2896E6;
+	text-decoration: none;
+}
+.info_address .direction a:hover{
+	color: #2896EB;
+	text-decoration: underline;
+}
+#actions {
+	list-style: none;
+	padding: 0;
+}
+#inline-actions {
+	padding-top: 10px;
+}
+.item {
+	margin-left: 20px;
+}
+div.infoBox{
+	color: #FFF;
+	/*padding: 5px 5px 5px 5px;*/
+	border: 0px #F00 solid;
+	background-color: #F99;
+        
+}
+.SIDE_BAR{
+	font-size: 10px;
+	padding: 2px 2px 2px 2px;
+	border: 0px #F00 solid;
+	height: 490px;
+	overflow-y: scroll;
+}
+.SIDE_BAR ul{
+	list-style: none;
+}
+.SIDE_BAR ul li{
+	border: 0px #F00 solid;
+	clear: both;
+}
+.SIDE_BAR ul li a{
+	font-size: 12px;
+	color:#006EC3;
+	text-decoration: none;
+}
+.SIDE_BAR ul li a:hover{
+	color: #2896EB;
+	text-decoration: underline;
+}
+.SIDE_BAR ul li a img{
+	width: 32px;
+	height: 32px;
+	margin: 0px 2px 2px 0px;
+	
+	border: 0px #F00 solid;
+	vertical-align: text-top;
+	float: left;
+}
+div.infoBox_detail{
+	/*padding: 5px 5px 5px 5px;*/
+	font-family: Tahoma, Geneva, sans-serif;
+	border: 0px #F00 solid;
+}
+.infoBox_detail a{
+	color: #034C95;
+	font-size: 12px;
+	font-weight: bold;
+}
+.infoBox_detail td{
+	padding: 0px;
+	text-align: left;
+}
+.infoBox_detail .info_subject{
+	color: #034C95;
+	font-size: 12px;
+	font-weight: bold;
+}
+.infoBox_detail .info_category{
+	color: #444;
+	font-size: 11px;
+}
+.infoBox_detail .info_location{
+	color: #666;
+	font-size: 11px;
+	vertical-align: top;
+}
+.infoBox_detail .card_img{
+	margin: 2px 5px 0px 0px;
+	width: 40px;
+	height: 40px;
+}
+.infoBox_detail .card_img:hover{
+	border: 1px #CCC solid;
+}
+.expand_wrapper{
+	width: 100%;
+	position: relative;
+}
+#iexpand_map{
+	position: absolute;
+    width: 100%;
+	background-color: #D0D0D0;
+	
+	 text-align: center;
+	 padding: 3px 0px 3px 0px;
+     
+	 /* z-index: 1; */
+}
+#iexpand_map:hover{
+	cursor: pointer;
+	background-color: #BCBCBC; 
+}
+#iexpand_map div#iexpandcollapseicon{
+	 margin: 0 auto;
+	 background-image: url(../mapIcon/collapse.png);
+	 border: 0px #00F solid;
+	 width: 17px;
+	 height: 16px;
+}
+.get_direction{
+	 z-index:2;
+	 position: relative; 
+	 float: right;
+	 width: 40px;
+	 height: 22px;
+	 border-left: 1px #C6C6C6 solid;
+	 background-color: #D0D0D0;
+     //display: inline-block;
+}
+.get_direction:hover{
+	 background-color: #BCBCBC;
+}
+.get_direction a{
+	font-size: 12px;
+	color:#006EC3;
+	text-decoration: none;
+}
+.get_direction a:hover{
+	color: #2896EB;
+}
+.get_direction a .go{
+	text-align: center;
+ 	border: 0px #F00 solid;
+	padding: 1px 1px 2px 1px;
+}
+/*==My Map====================================================================*/
+/* =================================== Seang Ou ======================================*/
+table.ou_block_map {
+    width:250px;
+    height: 100px;
+    /*border: 2px solid #F99;*/
+}
+
+table.ou_block_map td.photo_block {
+    width:88px; 
+    height:100px; 
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+table.ou_block_map td.photo_block img {
+    width:88px;
+    height: 100px;
+    vertical-align: top;
+    margin: 3px 0 3px 3px; 
+}
+table.ou_block_map td.text_block {
+    width: 100%;
+    height: 100px;
+    vertical-align: top;
+    padding-left: 10px;
+}
+table.ou_block_map td.text_block span.place {
+    color:#4facd0;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: Time New Roman;
+}
+
+table.ou_block_map td.text_block span {
+    width:100%;
+    display: block;
+    overflow: auto;
+    margin-bottom: 5px;
+    color:#818789;
+}
+/* =================================== Seang Ou ======================================*/
